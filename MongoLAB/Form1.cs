@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,25 +20,24 @@ namespace MongoLAB
         {
             InitializeComponent();
             method1();
-
         }
-        static async Task method1()
-        {
-            IMongoDatabase db = (new MongoClient("mongodb://localhost:27017")).GetDatabase("MongoLAB");
 
-            var collection = db.GetCollection<BsonDocument>("Peliculas");
+        async Task method1()
+        {
+
             //Debug.Write(collection.ToBsonDocument);
-            using (IAsyncCursor<BsonDocument> cursor = await collection.FindAsync(new BsonDocument()))
+            /*using (IAsyncCursor<BsonDocument> cursor = await collection.FindAsync(new BsonDocument()))
             {
                 while (await cursor.MoveNextAsync())
                 {
+
                     IEnumerable<BsonDocument> batch = cursor.Current;
                     foreach (BsonDocument document in batch)
                     {
                         Debug.WriteLine(document);
                     }
                 }
-            }
+            }*/
             var document1 = new BsonDocument
             {
                 { "firstname", BsonValue.Create("Peter")},
@@ -46,7 +46,15 @@ namespace MongoLAB
                 { "class", "JSS 3" },
                 { "age", 45}
             };
-            await collection.InsertOneAsync(document1);
+            //await collection.InsertOneAsync(document1);
+            //var result = JsonConvert.DeserializeObject<List<JsonResult>>(document1.ToJson());
+            //DGV1.DataSource = document1.ToList();
+            //var filter = Builders<JsonResult>.Filter.Eq(x => x.Id == 5);
+            //var result = collection.Find(x => x.Nombre == "Rapidos y Furiosos");
+
+            //var rr = result.ToList();
+            Debug.WriteLine("");
+            //DGV1.DataSource = rr;
         }
 
     }

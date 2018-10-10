@@ -33,10 +33,14 @@ C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\bin\Debug\MongoDB.Bso
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\bin\Debug\MongoDB.Driver.xml
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.csprojAssemblyReference.cache
-C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.Form1.resources
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.Properties.Resources.resources
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.csproj.GenerateResource.cache
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.csproj.CoreCompileInputs.cache
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.csproj.CopyComplete
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.exe
 C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.pdb
+C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.Form1.resources
+C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.RegistrarPelicula.resources
+C:\Users\ronxr\source\repos\Git Projects\MongoLAB\MongoLAB\obj\Debug\MongoLAB.RegistrarCompania.resources
