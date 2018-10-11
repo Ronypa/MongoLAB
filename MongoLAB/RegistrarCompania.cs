@@ -31,7 +31,7 @@ namespace MongoLAB
                 var infoCompa = new BsonDocument
             {
                 { "Nombre", nombreBox.Text},
-                { "Fundacion", fundacionBox.Text},
+                { "Fundacion", int.Parse(fundacionBox.Text)},
                 { "Web", webBox.Text }
             };
                 collection.InsertOne(infoCompa);

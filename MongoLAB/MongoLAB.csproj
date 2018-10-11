@@ -67,6 +67,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultaPeliAnno.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultaPeliAnno.Designer.cs">
+      <DependentUpon>ConsultaPeliAnno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPeliCompania.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultaPeliCompania.Designer.cs">
+      <DependentUpon>ConsultaPeliCompania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPeliFranquicia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultaPeliFranquicia.Designer.cs">
+      <DependentUpon>ConsultaPeliFranquicia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPeliNombre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultaPeliNombre.Designer.cs">
+      <DependentUpon>ConsultaPeliNombre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +112,18 @@
     <Compile Include="RegistrarPelicula.Designer.cs">
       <DependentUpon>RegistrarPelicula.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ConsultaPeliAnno.resx">
+      <DependentUpon>ConsultaPeliAnno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaPeliCompania.resx">
+      <DependentUpon>ConsultaPeliCompania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaPeliFranquicia.resx">
+      <DependentUpon>ConsultaPeliFranquicia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaPeliNombre.resx">
+      <DependentUpon>ConsultaPeliNombre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

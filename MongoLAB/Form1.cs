@@ -57,5 +57,34 @@ namespace MongoLAB
             //DGV1.DataSource = rr;
         }
 
+        private void registroPeliBtn_Click(object sender, EventArgs e)
+        {
+            registrarPelicula.BringToFront();
+        }
+
+        private void registroCompaBtn_Click(object sender, EventArgs e)
+        {
+            registrarCompania.BringToFront();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            consultaPeliNombre.BringToFront();
+        }
+
+        private void consultaFranquiBtn_Click(object sender, EventArgs e)
+        {
+            consultaPeliFranquicia.BringToFront();
+        }
+
+        private void consultarAnnoBtn_Click(object sender, EventArgs e)
+        {
+            consultaPeliAnno.BringToFront();
+        }
+
+        private void consultaCompaBtn_Click(object sender, EventArgs e)
+        {
+            consultaPeliCompania.BringToFront();
+        }
     }
 }

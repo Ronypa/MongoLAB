@@ -39,8 +39,8 @@ namespace MongoLAB
                 { "Director", directorBox.Text },
                 { "Franquicia", franquiBox.Text },
                 { "Pais", paisBox.Text},
-                { "Estreno", estrenoBox.Text},
-                { "Duracion", duracionBox.Text},
+                { "Estreno", int.Parse(estrenoBox.Text)},
+                { "Duracion", int.Parse(duracionBox.Text)},
                 { "Productora", productoraBox.Text},
                 { "Actores", actores}
             };
