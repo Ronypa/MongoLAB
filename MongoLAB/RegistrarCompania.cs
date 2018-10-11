@@ -26,7 +26,7 @@ namespace MongoLAB
         {
             try
             {
-                var collection = db.GetCollection<BsonDocument>("peliculas");
+                var collection = db.GetCollection<BsonDocument>("compania");
 
                 var infoCompa = new BsonDocument
             {
